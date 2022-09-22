@@ -1,0 +1,103 @@
+form { 
+    margin: 0 auto;
+}
+  
+fieldset {
+    border-style: none;
+    border: unset;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  
+#message,
+#subject,
+#email {
+    width: 100%;
+}
+  
+#fname,
+#lname {
+    width: 100%;
+    font-size: 90%;
+}
+  
+#fname,
+#lname,
+#subject,
+#email,
+#message {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 8px;
+    margin: 8px 0;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+#fname:focus,
+#lname:focus,
+#subject:focus,
+#email:focus,
+#message:focus {
+
+    background-color: whitesmoke;
+}
+  
+input[type="submit"] {
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 2%;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+  
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+  
+input[type="text"]:focus,
+textarea:focus {
+    outline-color: #8788bf;
+}
+  
+.name-star,
+.e-star {
+    position: relative;
+    color: #3d3d3d;
+}
+  
+.name-star::after,
+.e-star::after {
+    content: '*';
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    top: 25px;
+    font-size: 1.5rem;
+}
+  
+.mess-star {
+    position: relative;
+    color: #3d3d3d;
+}
+  
+.mess-star::after {
+    content: '*';
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    bottom: -36px;
+    font-size: 1.5rem;
+}
+
+/* @media screen and (min-width: 48em) {
+
+    #message,
+    #subject,
+    #email {
+        width: 90%;
+    }
+
+} */

@@ -1,0 +1,108 @@
+/*
+Theme Name:   Twentyseventeen Child Theme
+Theme URI:    localhost/worpress-reflection
+Description:  A Twentyseventeen child theme 
+Author:       Karl Smith
+Author URI:   localhost/worpress-reflection
+Template:     twentyseventeen
+Version:      1.0.0
+Text Domain:  twentyseventeenchild
+*/
+
+@import url("../twentyseventeen/style.css");
+
+.panel-image {
+    height:70vh;
+}
+
+.site-title,
+.site-description {
+
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.navigation-top {
+    background: #1d2327;
+    border-bottom: unset;
+    border-top: unset;
+    margin-top: -1px;
+    padding-bottom: 1px;
+}
+
+.navigation-top a{
+
+    color: #a7aaad;
+}
+
+.menu-toggle {
+
+    color: white;
+    margin-top: 0px;
+}
+
+.main-navigation ul {
+
+    background: inherit;
+    text-align: center;
+}
+
+.main-navigation li {
+    border-bottom: unset;
+}
+
+.main-navigation > div > ul {
+
+    border-top: unset;
+}
+
+.single-featured-image-header img {
+
+    width: 100vw;
+}
+
+.site-branding {
+    margin-bottom: -1px;
+}
+
+.site-footer {
+    background: #1d2327;
+    color: rgb(180, 180, 180);
+    margin-top: 0px;
+}
+
+h2.widget-title {
+    color: white;
+}
+
+footer a {
+
+    color: rgb(180, 180, 180);
+}
+
+.site-info a {
+
+    color: rgb(180, 180, 180);
+}
+
+.entry-content a:focus, .entry-content a:hover, .entry-summary a:focus, .entry-summary a:hover, .comment-content a:focus, .comment-content a:hover, .widget a:focus, .widget a:hover, .site-footer .widget-area a:focus, .site-footer .widget-area a:hover, .posts-navigation a:focus, .posts-navigation a:hover, .comment-metadata a:focus, .comment-metadata a:hover, .comment-metadata a.comment-edit-link:focus, .comment-metadata a.comment-edit-link:hover, .comment-reply-link:focus, .comment-reply-link:hover, .widget_authors a:focus strong, .widget_authors a:hover strong, .entry-title a:focus, .entry-title a:hover, .entry-meta a:focus, .entry-meta a:hover, .page-links a:focus .page-number, .page-links a:hover .page-number, .entry-footer a:focus, .entry-footer a:hover, .entry-footer .cat-links a:focus, .entry-footer .cat-links a:hover, .entry-footer .tags-links a:focus, .entry-footer .tags-links a:hover, .post-navigation a:focus, .post-navigation a:hover, .pagination a:not(.prev):not(.next):focus, .pagination a:not(.prev):not(.next):hover, .comments-pagination a:not(.prev):not(.next):focus, .comments-pagination a:not(.prev):not(.next):hover, .logged-in-as a:focus, .logged-in-as a:hover, a:focus .nav-title, a:hover .nav-title, .edit-link a:focus, .edit-link a:hover, .site-info a:focus, .site-info a:hover, .widget .widget-title a:focus, .widget .widget-title a:hover, .widget ul li a:focus, .widget ul li a:hover {
+
+    color: rgb(209, 209, 209);
+}
+
+fieldset {
+
+    border: none;
+}
+
+@media screen and (min-width: 48em) {
+
+    .main-navigation ul {
+
+        text-align: left;
+    }    
+}
