@@ -66,29 +66,31 @@ textarea:focus {
 .e-star {
     position: relative;
     color: #3d3d3d;
+    display: block;
 }
   
 .name-star::after,
 .e-star::after {
     content: '*';
     position: absolute;
-    right: 5px;
+    right: 10px;
     z-index: 1;
-    top: 25px;
+    top: 10px;
     font-size: 1.5rem;
 }
   
 .mess-star {
     position: relative;
     color: #3d3d3d;
+    display: block;
 }
   
 .mess-star::after {
     content: '*';
     position: absolute;
-    right: 5px;
+    right: 10px;
     z-index: 1;
-    bottom: -36px;
+    top: 4px;
     font-size: 1.5rem;
 }
 

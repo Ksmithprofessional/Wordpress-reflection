@@ -99,6 +99,13 @@ fieldset {
     border: none;
 }
 
+#swipebox-prev, 
+#swipebox-next, 
+#swipebox-close {
+
+    margin-right: 10px;
+}
+
 @media screen and (min-width: 48em) {
 
     .main-navigation ul {
