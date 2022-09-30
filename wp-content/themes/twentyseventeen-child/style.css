@@ -106,10 +106,58 @@ fieldset {
     margin-right: 10px;
 }
 
+.wc-block-mini-cart {
+
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1001;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.wc-block-mini-cart__button:hover:not([disabled]){
+
+    border-radius: 50%;
+    background: unset;
+}
+
+.wc-block-mini-cart__button {
+
+    background-color: unset;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-right: 8px;
+}
+
+.product_meta {
+    
+    margin-top: 10px;
+}
+
+.posted_in {
+    
+    margin-right: 10px;
+}
+
+.woocommerce-MyAccount-content {
+    
+    text-align: center;   
+}
+
 @media screen and (min-width: 48em) {
 
     .main-navigation ul {
 
         text-align: left;
     }    
+}
+
+@media screen and (min-width: 463px) and (max-width: 540px){
+
+    .woocommerce-result-count,
+    .orderby {
+
+     font-size: 15px;
+    }
 }

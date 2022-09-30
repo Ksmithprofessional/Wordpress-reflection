@@ -1,0 +1,2 @@
+2022-09-28T10:58:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Worpress-reflection\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\CartOrderSummaryShippingBlock.php on line 15
+
